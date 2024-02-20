@@ -21,4 +21,4 @@ def get_message():
 # Démarrage du serveur Flask
 if __name__ == '__main__':
     print(f"Starting app on port {port}")
-    app.run(port=int(port))
+    app.run(port=int(port), host="0.0.0.0")
